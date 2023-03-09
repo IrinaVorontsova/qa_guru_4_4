@@ -60,11 +60,3 @@ def test_form(driver_browser):
     browser.element('//tr[9]/td[2]').should(have.text(ADDRESS))
     browser.element('//tr[10]/td[2]').should(have.text('Rajasthan Jaiselmer'))
     browser.element('#closeLargeModal').perform(command.js.click)
-
-
-
-
-
-
-
-
